@@ -3,26 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fixed Navbar</title>
+  <title>Donate Bangladesh</title>
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+  <!-- Google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <!-- Tailwind css and deisy ui -->
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+      .font{
+          font-family: "Nunito Sans", serif;
+      }
+  </style>
 </head>
 <body class="bg-gray-100">
-  <!-- Navbar -->
-  <nav class="bg-blue-600 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
-    <div class="container mx-auto px-4 py-4">
-      <h1 class="text-xl font-bold">Fixed Navbar</h1>
-    </div>
-  </nav>
+    <header>
+    <!-- Navbar -->
+    <div class="bg-stone-200 shadow fixed w-full z-40 ">
+        <div class="container mx-auto items-center py-2 flex justify-between">
+            <div class="flex justify-between items-center">
+                <button class="btn bg-lime-400 font-bold text-xl">Blog</button>
+            </div>
+            <div class="lg:block md:block hidden">
+                <div class="flex items-center gap-2">                    <img src="./assets/logo.png" alt="demonstration">
+                    <h3 class="font-bold text-lg">Donate BD</h3>
+                </div>
+            </div>
+            <div class="flex lg:hidden md:hidden  items-center px-2 gap-2">
+                <img src="./assets/logo.png" alt="demonstration">
 
-  <!-- Page Content -->
-  <div class="mt-20">
-    <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold">Page Content</h2>
-      <p class="mt-4">This is some scrollable content...</p>
-      <div class="h-[2000px] mt-4 bg-gray-200">
-        Scroll down and the navbar should stay fixed at the top.
-      </div>
+            </div>
+            <div class="">
+                <button class="btn gap-0 bg-stone-200 border-0 shadow-none">
+                    <img src="./assets/coin.png" alt="Taka">
+                    <h4 class="text-xl"><span id="wallet" class="px-2">5500</span>BDT</h4>
+                </button>
+            </div>
+        </div>
     </div>
-  </div>
+</header>
+<main class="pt-20 container mx-auto">
+    <h2 class="text-3xl font-extrabold my-3">Important FAQ❓</h2>
+    <div class="join join-vertical w-full">
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" checked="checked" />
+          <div class="collapse-title text-xl font-medium">What is the Document Object Model(DOM)?</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM and why is it useful?</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+</main>
 </body>
 </html>
