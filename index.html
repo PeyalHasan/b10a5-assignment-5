@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <!-- Google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <!-- Tailwind css and deisy ui -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font{
+            font-family: "Nunito Sans", serif;
+        }
+    </style>
+</head>
+<body class="font">
+    <header>
+        <div class="bg-stone-200 shadow fixed w-full ">
+            <div class="container mx-auto items-center py-2 flex justify-between">
+                <div class="flex justify-between items-center">
+                    <button class="btn bg-lime-400 font-bold text-xl">Home</button>
+                </div>
+                <div class="lg:block md:block hidden">
+                    <div class="flex items-center gap-2">                    <img src="./assets/logo.png" alt="demonstration">
+                        <h3 class="font-bold text-lg">Donate BD</h3>
+                    </div>
+                </div>
+                <div class="flex lg:hidden md:hidden  items-center px-2 gap-2">
+                    <img src="./assets/logo.png" alt="demonstration">
+
+                </div>
+                <div class="">
+                    <button class="btn gap-0 bg-stone-200 border-0 shadow-none">
+                        <img src="./assets/coin.png" alt="Taka">
+                        <h4 class="text-xl"><span id="wallet" class="px-2">5500</span>BDT</h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="pt-20 container mx-auto ">
+        <!-- Button Donation & History -->
+         <section class="flex justify-center gap-3">
+            <button class="btn">Donation</button>
+            <button class="btn">History</button>
+         </section>
+         <!-- Donation Card Section -->
+          <!-- Flood in Noakhali -->
+         <section class="my-4">
+            <div class="card lg:card-side md:card-side p-4 bg-base-100 shadow-xl">
+                <img class=" bg-cover h-full" src="./assets/noakhali.png" alt="">
+                <div class="card-body">
+                  <button class="flex">
+                    <img src="./assets/coin.png" alt="">
+                    <h4 class="text-lg font-bold "><span class="mx-2">155874</span>BDT</h4>
+                  </button>
+                  <h2 class="card-title">Donation for Flood at Noakhali,Bangladesh</h2>
+                  <p>The recent floods in Noakhali hae caused significant damage to homes infrastructure. Your Donation will help provide essential supplies and to those affected by this disoster.Every contribution,big or small, makes difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                  <input type="text"placeholder="Write Donation Amount"class="input input-bordered input-accent w-full " />
+                  <div class="card-actions justify-end">
+                    <button class="btn w-full">Donate Now</button>
+                  </div>
+                </div>
+              </div>
+         </section>
+         <!-- Aid for INjured in Quota Movement -->
+         <section class="my-4">
+            <div class="card lg:card-side md:card-side p-4 bg-base-100 shadow-xl">
+                <img class=" bg-cover h-full" src="./assets/quota-protest.png" alt="">
+                <div class="card-body">
+                  <button class="flex">
+                    <img src="./assets/coin.png" alt="">
+                    <h4 class="text-lg font-bold "><span class="mx-2">155874</span>BDT</h4>
+                  </button>
+                  <h2 class="card-title">Donation for Flood at Noakhali,Bangladesh</h2>
+                  <p>The recent floods in Noakhali hae caused significant damage to homes infrastructure. Your Donation will help provide essential supplies and to those affected by this disoster.Every contribution,big or small, makes difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                  <input type="text"placeholder="Write Donation Amount"class="input input-bordered input-accent w-full " />
+                  <div class="card-actions justify-end">
+                    <button class="btn w-full">Donate Now</button>
+                  </div>
+                </div>
+              </div>
+         </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
